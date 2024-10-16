@@ -1,0 +1,89 @@
+body {
+  font-family: 'Comic Sans MS', sans-serif;
+  background-color: #e3f2fd;
+  color: #0277bd;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.mainn {
+  background-color: #ffffff;
+  padding: 20px;
+  max-width: 600px;
+  margin: 50px auto;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 150, 255, 0.2);
+}
+
+h1.menu-survey {
+  font-size: 2.5rem;
+  color: #01579b;
+  margin-bottom: 20px;
+}
+
+.survey {
+  margin-bottom: 20px;
+}
+
+.samain {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  color: #0288d1;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 2px solid #81d4fa;
+  box-sizing: border-box;
+  margin-top: 5px;
+  font-size: 1rem;
+}
+
+input:focus {
+  border-color: #0277bd;
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.4);
+}
+
+button.submit-button,
+button.back-button {
+  background-color: #0288d1;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.submit-button:hover,
+button.back-button:hover {
+  background-color: #0277bd;
+}
+
+#output {
+  background-color: #bbdefb;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 10px;
+  color: #01579b;
+  font-size: 1.2rem;
+}
+
+#output h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+#output p {
+  margin: 5px 0;
+}

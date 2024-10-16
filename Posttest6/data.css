@@ -1,0 +1,148 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  main.data-event-section {
+    max-width: 1200px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+  }
+  
+  h1.data-event-title {
+    font-size: 2.5rem;
+    color: #0277bd;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  table.table-event {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 1.1rem;
+    overflow-x: auto;
+  }
+  
+  thead {
+    background-color: #0288d1;
+    color: #fff;
+  }
+  
+  th.table-event-header {
+    padding: 15px 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    border: 1px solid #dddddd;
+  }
+  
+  tbody {
+    background-color: #e3f2fd;
+  }
+  
+  tr.table-event-row:nth-child(even) {
+    background-color: #bbdefb;
+  }
+  
+  td.table-event-data {
+    padding: 12px 10px;
+    border: 1px solid #dddddd;
+  }
+  
+  tr.table-event-row:hover {
+    background-color: #b3e5fc;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* .button-UD {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  } */
+  
+  button.edit-data,
+  button.hapus-data {
+    background-color: #0288d1;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.edit-data:hover {
+    background-color: #0277bd;
+  }
+  
+  button.hapus-data:hover {
+    background-color: #d32f2f;
+  }
+  
+  button i {
+    margin-right: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    main.data-event-section {
+      padding: 20px;
+    }
+  
+    h1.data-mahasiswa-title {
+      font-size: 2rem;
+    }
+  
+    table.table-event {
+      font-size: 1rem;
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;/
+    }
+  
+    th.table-event-header,
+    td.table-event-data {
+      padding: 10px; 
+    }
+  
+    button.edit-data,
+    button.hapus-data {
+      padding: 8px 10px;
+    }
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button.tambah {
+    margin-top: 1%;
+    background-color: rgb(119, 194, 255);
+    color: white;
+    margin-right: 20px;
+  }
+  
+  button.back {
+    background-color: #007bff;
+    color: white;
+    margin-left: 20px;
+  }
+  
+  .edit-data i,
+  .hapus-data i {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+  }
+  
