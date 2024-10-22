@@ -1,0 +1,102 @@
+body {
+  background: linear-gradient(135deg, #89CFF0, #4682B4);
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.login-card {
+  background: #f0f8ff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+h1.login-title {
+  color: #4682B4;
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+}
+
+p.login-description {
+  color: #6495ED;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.login-form-group {
+  text-align: left;
+}
+
+.login-form-title {
+  color: #4682B4;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.login-form-input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #b0c4de;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  box-sizing: border-box;
+}
+
+.login-form-input:focus {
+  border-color: #4682B4;
+  box-shadow: 0 0 5px rgba(70, 130, 180, 0.5);
+  outline: none;
+}
+
+select.login-form-input {
+  background: #ffffff;
+  appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%234682B4" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 5.646a.5.5 0 0 1 .708 0L8 11.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 1rem;
+}
+
+.login-button {
+  background: #4682B4;
+  color: white;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.1s;
+}
+
+.login-button:hover {
+  background: #5b9bd5;
+}
+
+.login-button:active {
+  transform: scale(0.98);
+}
+
+a {
+  color: #4682B4;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #6495ED;
+}
